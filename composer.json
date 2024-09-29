@@ -1,0 +1,29 @@
+{
+    "name": "tuijncode/laravel-version",
+    "description": "Laravel Version",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David van der Tuijn",
+            "email": "david@tuijncode.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tuijncode\\LaravelVersion\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tuijncode\\LaravelVersion\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
