@@ -2,13 +2,9 @@
 
 namespace Tuijncode\LaravelVersion;
 
-use Illuminate\Support\Facades\Route;
-
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
-    public function register(): void
-    {
-    }
+    public function register(): void {}
 
     public function boot(): void
     {

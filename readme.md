@@ -37,7 +37,7 @@ TUIJNCODE_LARAVEL_VERSION_TOKEN="your-token"
 
 ## Usage
 
-https://example.com/tuijncode/laravel-version?token=your-token
+https://example.com/version?token=your-token
 
 ## Response (JSON)
 
